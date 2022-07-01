@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wrupal API client demo</title>
+    </head>
+    <body>
+        <h1>Wrupal API client demo</h1>
+
+        <h2>Current environment settings:</h2>
+        <pre>{{ dump(env) }}</pre>
+
+        <h2>Request login:</h2>
+        <h3>Code</h3>
+        <pre>{{ dump(login_code) }}</pre>
+        <h3>Contents</h3>
+        <pre>{{ dump(login_contents) }}</pre>
+        <h3>Meta</h3>
+        <pre>{{ dump(login_meta) }}</pre>
+
+        <h2>Request trainings:</h2>
+        <h3>Code</h3>
+        <pre>{{ dump(trainings_code) }}</pre>
+        <h3>Contents</h3>
+        <pre>{{ dump(trainings_contents) }}</pre>
+        <h3>Meta</h3>
+        <pre>{{ dump(trainings_meta) }}</pre>
+
+    </body>
+</html>

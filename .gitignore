@@ -1,0 +1,8 @@
+# Excluded folders.
+/vendor/
+/.idea/
+/.vscode/
+/var/
+
+# Exclude local configuration.
+/.env.local

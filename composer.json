@@ -1,0 +1,9 @@
+{
+  "require": {
+    "PHP": "^7.2.5",
+    "ext-json": "*",
+    "symfony/dotenv": "^5.4",
+    "twig/twig": "^3.0",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
